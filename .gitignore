@@ -1,4 +1,20 @@
-venv/
+# Python cache files
 __pycache__/
+*.pyc
 .pytest_cache/
+
+# Virtual environment (anyone can rebuild it from requirements.txt)
+venv/
+.venv/
+
+# Secrets: API keys go here, never in code
+.env
+
+# Database files: these hold your real transactions
+*.db
+*.sqlite
+*.sqlite3
+
+# Mac and editor files
 .DS_Store
+.vscode/
